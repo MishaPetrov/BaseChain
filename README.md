@@ -1,5 +1,5 @@
-# Epicoin
-Epicodus Ruby Group Project
+# BaseChain (Epicoin)
+Ruby-based blockchain with an educational JS-built web app.
 
 ## March 8, 2018
 
