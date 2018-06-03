@@ -1,37 +1,17 @@
 # BaseChain (Epicoin)
-Ruby-based blockchain with an educational JS-built web app.
-
-## March 8, 2018
+Ruby-based blockchain with an educational JS-built web app. 
 
 #### By Andrew Peterson, John Rykken, Misha Petrov, David Lewis & Jared Clemmensen
 
-## Technologies Used
-  * Ruby, Javascript, sass, ActiveRecord, Sinatra, PostgreSQL  
+![frontend view 1](https://pro2-bar-s3-cdn-cf4.myportfolio.com/257c8eced7e830e5d34f94f741276bf4/57ad697e-2831-4176-b44d-c83c32327165_rw_1920.png?h=b78e5aa2a8c4ccfaa549ac3e9f681e28 "Educational web app view")
+![frontend view 2](https://pro2-bar-s3-cdn-cf6.myportfolio.com/257c8eced7e830e5d34f94f741276bf4/a2270927-78c7-4b90-8a53-6e3bd5c8e042_rw_1920.png?h=fc99705ac0f092cad2c81bcb3d73a148 "Educational web app view - draggable")
 
 ## Description
-  An emulation of a blockchain node for a brand new cryptocurrency called Epicoin.
+  An emulation of a blockchain node for a brand new cryptocurrency called Epicoin. Blockchain is built in Ruby. Educational app is created using Javascript. User interaction happens through a JS-built terminal window that calls Ruby functions for all related user scenarios.
 
-## Specs
-
-#### Backend
-##### Database
-![alt text](database_image.png "Epicoin database structure")
-
-##### User stories
-  1. User becomes a peer and stores private key in a safe place
-  2. User can make new peers
-  3. User can initiate transactions between peers
-  4. User can have a peer mine to add currency to their balance
-  5. User can make a block by completing a transaction and then mining
-  6. User can click to see a detailed description of block chains and terminology
-
-## Known bugs
-  Our app is perfect
-
-  jkjk
-
-  We don't even know where to begin... contact us and buy us lots of beverages then will attempt to explain
-
+## Technologies Used
+  * Ruby, Javascript, sass, ActiveRecord, Sinatra, PostgreSQL  
+  
 ## Setup/Installation Requirements
 
   Clone to your Desktop.
@@ -55,6 +35,34 @@ Ruby-based blockchain with an educational JS-built web app.
   ```
 
   Open your browser and go to localhost:4567
+
+## Specs
+
+#### Backend
+##### Database
+![database structure](database_image.png "Epicoin database structure")
+
+##### User stories
+  1. User becomes a peer and stores private key in a safe place
+  2. User can make new peers
+  3. User can initiate transactions between peers
+  4. User can have a peer mine to add currency to their balance
+  5. User can make a block by completing a transaction and then mining
+  6. User can click to see a detailed description of block chains and terminology
+  
+#### Frontend
+
+* JS-built terminal imitation
+* PSTRPRT inspired design
+* All JQuery dragable elements with support for mobile devices
+* Windows 95 inspired window design
+
+## Known bugs
+  Our app is perfect
+
+  jkjk
+
+  We don't even know where to begin... contact us and buy us lots of beverages then will attempt to explain
 
 ## License
   Copyright (c) 2018 Jared Clemmensen, Andrew Peterson, John Rykken, Misha Petrov & David Lewis
